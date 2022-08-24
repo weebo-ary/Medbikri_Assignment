@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { ApiService } from "../api.services";
 import Loader from "./Loader";
 
@@ -45,6 +45,8 @@ function LaunchPage() {
             <br />
             <h3>Time : {date_local.slice(11, 19)}</h3>
           </div>
+          <br/>
+          <Link to="/"> Go Back</Link>
         </div>
       )}
     </div>

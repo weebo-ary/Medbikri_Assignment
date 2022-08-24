@@ -1,7 +1,11 @@
+import { Link } from "react-router-dom"
+
 export const Header = () => {
     return (
         <div className="header">
-            <h1>Medbikri Assignment - 2022</h1>
+            <Link to="/" className="headLink">
+            <h2>Medbikri Assignment - 2022</h2>
+            </Link>
         </div>
     )
 }
