@@ -1,5 +1,5 @@
 import "./App.css";
-import { Routes, Route, Link, BrowserRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Launch from "./components/Launch";
 import Launchpad from "./components/Launchpad";
 
@@ -9,9 +9,8 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<Launch />} />
-          <Route path="/launchpad" element={<Launchpad />} />
+          <Route path="/launchpad/:id" element={<Launchpad />} />
         </Routes>
-        {/* <Launch /> */}
       </div>
     </BrowserRouter>
   );
