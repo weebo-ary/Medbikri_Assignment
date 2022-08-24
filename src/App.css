@@ -5,15 +5,14 @@
   overflow-x: hidden;
 }
 
-.header > h1 {
+.header {
   text-align: center;
-  padding: 3rem;
+  padding: 0.8rem;
 }
 
 .headLink {
   text-decoration: none;
   color: rgb(62, 164, 187);
-  padding: 2rem;
 }
 
 .launching {
@@ -143,7 +142,7 @@ img {
 @media screen and (max-width:900px) {
   
   .header {
-    padding: 1rem;
+    padding: 0.5rem;
     background-color: #fff;
     width: 100%;
   }
