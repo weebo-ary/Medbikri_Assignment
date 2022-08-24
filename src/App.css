@@ -10,6 +10,12 @@
   padding: 3rem;
 }
 
+.headLink {
+  text-decoration: none;
+  color: rgb(62, 164, 187);
+  padding: 2rem;
+}
+
 .launching {
   display: flex;
   justify-content: center;
@@ -138,7 +144,6 @@ img {
   
   .header {
     padding: 1rem;
-    /* position: fixed; */
     background-color: #fff;
     width: 100%;
   }
@@ -146,6 +151,7 @@ img {
   .headLink {
     text-decoration: none;
     color: rgb(62, 164, 187);
+    padding: 0;
   }
 
   h2 {
